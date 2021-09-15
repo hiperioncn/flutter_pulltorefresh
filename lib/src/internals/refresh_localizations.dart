@@ -62,7 +62,7 @@ import 'package:flutter/widgets.dart';
 ///
 /// ```
 class RefreshLocalizations {
-  final Locale locale;
+  static Locale locale;
 
   RefreshLocalizations(this.locale);
 
